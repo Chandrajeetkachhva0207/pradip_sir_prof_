@@ -396,3 +396,11 @@
     scroll-behavior: auto !important;
   }
 }
+
+/* Suppress floating devtools badge/icon overlay in development */
+[id*="tanstack-devtools"],
+[class*="tanstack-devtools"],
+[id*="tanstack-router-devtools"],
+.ts-devtools {
+  display: none !important;
+}

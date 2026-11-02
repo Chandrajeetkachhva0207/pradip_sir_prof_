@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5DE82" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#A27E1A" />
+    </linearGradient>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#151C2C" />
+      <stop offset="100%" stop-color="#070A12" />
+    </radialGradient>
+  </defs>
+  <!-- Base Disc -->
+  <circle cx="32" cy="32" r="30" fill="url(#bgGrad)" stroke="url(#goldGrad)" stroke-width="2.5" />
+  <!-- Inner delicate ring -->
+  <circle cx="32" cy="32" r="25.5" fill="none" stroke="#D4AF37" stroke-width="0.8" stroke-opacity="0.45" stroke-dasharray="2.5 1.5" />
+  <!-- Crest Diamond Accent -->
+  <path d="M 32 14.5 L 34.5 17.5 L 32 20.5 L 29.5 17.5 Z" fill="url(#goldGrad)" />
+  <!-- Monogram PJ -->
+  <text x="32" y="40" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700" fill="url(#goldGrad)" letter-spacing="0.5">PJ</text>
+</svg>
